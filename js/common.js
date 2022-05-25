@@ -1,0 +1,1 @@
+// header, footer나 공용으로 쓰이는 js공간~

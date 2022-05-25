@@ -1,0 +1,35 @@
+.blind{
+    position: absolute;   
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.bold{font-weight: bold;}
+img{width: 100%;height: 100%;}
+
+.point::after {
+    content: '';
+    position: relative;
+    top: -8px;right: -2px;
+    display: inline-block;
+    width: 6px;height: 6px;
+    border-radius: 50%;
+    background: #ee5728;
+}
+.title{
+    padding: 50px 16px 22px;
+    font-size: 20px;line-height: 29px;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+
+header .logo_area .util_area .menu_btn .ic_menu,
+header .logo_area .util_area .srh_btn01 .ic_srh,
+header .logo_area .user_area .cart_btn .ic_cart,
+header .logo_area .user_area .mypage_btn .ic_mypage,
+header.on .ic_menu, header.on .ic_srh, header.on .ic_cart,
+header.on .ic_mypage{
+    background: url(../image/hd/sp_bg.png) no-repeat;
+    background-size: 100px auto;
+}
