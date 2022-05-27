@@ -70,7 +70,7 @@
 
 .sc_product_info .product_area .cont .image .box_new { position: absolute; right: 0; top: 0; width: 30px; }
 
-.sc_product_info .product_area .cont .txt { width: 100%; padding: 0 28px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.sc_product_info .product_area .cont .txt { width: calc(100% - 110px); padding: 0 28px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .sc_brandstory { background-color: #c86733; color: #fff; padding: 56px 4px; margin-top: 20px; }
 
