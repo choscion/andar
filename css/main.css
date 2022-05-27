@@ -64,7 +64,7 @@
 
 .sc_product_info .product_area .cont + li { border-top: 1px solid #eee; }
 
-.sc_product_info .product_area .cont a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.sc_product_info .product_area .cont a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 
 .sc_product_info .product_area .cont .image { position: relative; min-width: 110px; height: 165px; }
 
